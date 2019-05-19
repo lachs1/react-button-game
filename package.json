@@ -1,0 +1,17 @@
+{
+  "name": "react-button-game",
+  "version": "1.0.0",
+  "description": "Server for react-button-game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "Vincent Eurasto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.7",
+    "socket.io": "^2.2.0"
+  }
+}
